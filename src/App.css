@@ -1,0 +1,90 @@
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(101, 98, 98);
+}
+.container {
+  display: flex;
+  border: 1px solid white;
+  width: 450px;
+  height: 80vh;
+  background-color: rgb(124, 22, 22);
+  flex-direction: column;
+  border-radius: 5px;
+ 
+  
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 20px;
+  color: rgb(226, 202, 43);
+}
+.form{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input{
+  width: 70%;
+  font-size: 19px;
+  border-radius: 10px;
+  border: none;
+}
+button{
+ margin-left: 10px;
+ font-size: 19px;
+ border-radius: 8px;
+ border: none;
+ width: 65px;
+ background-color: rgb(71, 71, 192);
+  
+}
+.todo{
+  font-size: 20px;
+  text-decoration: none;
+  width: 90%;
+  border: 1px solid black;
+}
+li{
+  list-style: none;
+}
+li span{
+  font-size: 20px;
+  color: black;
+}
+li button{
+  margin-left: 10px;
+  font-size: 17px;
+  border-radius: 8px;
+  border: none;
+  width: 60px;
+  
+  background-color: rgb(71, 71, 192);
+}
+.alltodos{
+  width: 80%;
+}
+.singletodo{
+  display: flex;
+  margin-top: 10px;
+  
+  
+}
+.todotext{
+  flex: 1;
+  background-color: rgb(136, 136, 145);
+  border-radius: 5px;
+  color: black;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+input{
+
+  padding-left: 15px;
+}
